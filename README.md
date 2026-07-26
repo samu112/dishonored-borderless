@@ -1,6 +1,6 @@
 # DishonoredBorderless
 
-**Downloads are on [Nexus Mods]"https://www.nexusmods.com/dishonored/mods/379?tab=description"** — this repository is the source. To build it
+**Downloads are on [Nexus Mods](https://www.nexusmods.com/dishonored/mods/379?tab=description)** — this repository is the source. To build it
 yourself, see [Build](#build); to just use the mod, get the release archive and
 follow its `README.txt`.
 
