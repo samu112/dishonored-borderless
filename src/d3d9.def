@@ -1,0 +1,17 @@
+; Undecorated __stdcall export names.
+;
+; This matters more than it looks: Dishonored.exe imports "Direct3DCreate9" by
+; that exact name. If the linker emits "Direct3DCreate9@4" or "_Direct3DCreate9"
+; instead, the process fails to start with no useful diagnostic. build.ps1
+; re-reads this DLL's export table afterwards and asserts the names.
+LIBRARY d3d9
+EXPORTS
+    Direct3DCreate9
+    Direct3DCreate9Ex
+    D3DPERF_BeginEvent
+    D3DPERF_EndEvent
+    D3DPERF_GetStatus
+    D3DPERF_QueryRepeatFrame
+    D3DPERF_SetMarker
+    D3DPERF_SetOptions
+    D3DPERF_SetRegion

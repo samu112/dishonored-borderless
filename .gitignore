@@ -1,0 +1,10 @@
+# Build output and release archives -- reproduced by build.ps1 / package.ps1.
+build/
+dist/
+
+# Local logs and backups
+*.log
+*.bak
+*.bak-*
+*.sav
+*.sav.*
